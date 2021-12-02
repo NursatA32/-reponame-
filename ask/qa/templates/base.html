@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Q&A</title>
+</head>
+<body>
+	<div class="top">
+		<div class="logo">
+			<h1><a href="/">Main Page</a></h1>
+		</div>
+		<div class="login_menu">
+			<a href="/login/">login</a>
+			<a href="/signup/">signup</a>
+		</div>
+	</div>
+	<div>
+		<br> <hr> <br>
+	</div>
+
+	<div class="container">
+		<nav>
+			<h2>Navigation</h2>
+			<a href="/new/">New</a>
+			<a href="/popular/">Popular</a>
+		</nav>
+		<div>
+			<br> <hr> <br>
+		</div>
+		{% block content %} {% endblock %}
+	</div>
+
+	<div>
+		<br> <hr> <br>
+	</div>
+	<div class="footer">Alpha version of the site</div>
+</body>
+</html>
